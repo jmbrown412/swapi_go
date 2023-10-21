@@ -24,17 +24,17 @@ You'll be prompted with:
 `Enter the Star Wars character name: `
 
 You can enter a letter or a more specfic character name like
-`c`
-`Lando Calrissian`
+* `c`
+* `Lando Calrissian`
 
 Entering a full character name will likely return just one character.
 Entering a letter or letters will return a more broader result set.
 
 TODO
 ---------------
-Unit tests
-Support things beyond character search
-introduce data store to speed up retrieval
+* Unit tests
+* Support things beyond character search
+* introduce data store to speed up retrieval
 ...
 
 
