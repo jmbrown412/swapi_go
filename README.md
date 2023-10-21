@@ -32,6 +32,7 @@ Entering a letter or letters will return a more broader result set.
 
 TODO
 ---------------
+* More robust menu and loop to run again
 * Unit tests
 * Support things beyond character search
 * introduce data store to speed up retrieval
