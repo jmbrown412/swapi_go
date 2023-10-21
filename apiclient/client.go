@@ -154,13 +154,11 @@ func (c SwapiApiClient) searchCharacters(characterName string, nextUrl *string) 
 
 		// Hydrate Starships
 		if len(character.StarshipUrls) > 0 {
-			//var starships []Starship
 			for _, starshipUrl := range character.StarshipUrls {
 				starship, err := c.GetStarship(starshipUrl)
 				if err != nil {
 					return nil, err
 				}
-				//starships = append(starships, *starship)
 				character.Starships = append(character.Starships, *starship)
 			}
 		}
