@@ -35,7 +35,7 @@ TODO
 * Unit tests
 * Support things beyond character search
 * introduce data store to speed up retrieval
-...
+* ...
 
 
 
